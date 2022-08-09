@@ -143,6 +143,36 @@ section ul li img{
     width: 273px;
 }
 
+/* Inicia Sección de QUIENES SOMOS */
+section#quienes-somos{
+    background: url(/assets/img/imgQuienesSomos.jpg);
+    height: 299px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+/* Finaliza Sección de QUIENES SOMOS */
+
+/* Inicia Sección de SERVICIOS */
+section#servicios{
+    background: url(/assets/img/imgQuienesSomos.jpg);
+    height: 299px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+/* Finaliza Sección de SERVICIOS */
+
+/* Inicia Sección de CONTACTO */
+section#contacto{
+    background-color: #ffffff;
+    height: 299px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+/* Finaliza Sección de CONTACTO */
+
 #bottom{
     /* background-color: yellow; */
     background-image: url(/assets/img/backBottom.jpg);
@@ -171,7 +201,7 @@ section ul li img{
 #bottom ul li ol{
     position: relative;
     height: 80px;   
-    left: 17px;
+    left: 80px;
     top: 15px;
     width: 190px;
 }
@@ -180,6 +210,7 @@ section ul li img{
     color: #ffffff;
     font-size: 15px;
     height: 20px;
+    list-style-image: url(/assets/img/list.png);
     text-align: left;
 }
 
@@ -226,13 +257,20 @@ section ul li img{
     background-size: cover;
 }
 
-#bottom ul li ul li:nth-child(4){
+#bottom ul li ul li:last-child{
     background-image: url(/assets/img/iconoPinterest.jpg);
     background-size: cover;
 }
 
+#bottom ul li ul li a{
+    border-radius: 100%;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
 footer{
-    /* background-color: violet; */
+    background-color: #000000;
     color: #ffffff;
     font-size: 15px;
     height: 62px;
