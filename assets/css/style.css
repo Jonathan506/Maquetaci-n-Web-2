@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* list-style: none; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/assets/img/background.jpg);
+}
+
+header{
+    /* background: rgba(255, 255, 0, 0.5); */
+    background-image: url(/assets/img/cabezote.jpg);
+    border-bottom: 1px solid #bcd1cb;
+    height: 83px;
+    margin: auto; 
+    position: relative;
+    width: 1000px;
+}
+
+#logo{
+    /* background-color: turquoise; */
+    /* background-image: url(/assets/img/logotipo.png); */
+    height: 47px;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 188px; 
+}
+
+nav{
+    /* background: red; */
+    background-image: url(/assets/img/nav.jpg);
+    background-size: contain;
+    border-bottom: 1px solid #bcd1cb;
+    height: 83px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+nav ul{
+    /* background-color: blue; */
+    height: 45px;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    width: 472px;
+}
+
+nav ul li{
+    border-right: 1px solid #bcd1cb;
+    float: left;
+    line-height: 45px;
+    text-align: center;
+    width: 112px;
+}
+
+nav ul li:last-of-type{
+    border: none;
+}
+
+nav ul li a{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#slide{
+    /* background-color: blue; */
+    background-image: url(/assets/img/Slide.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 301px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+#botoneraslide{
+    /* background-color: aqua; */
+    background-image: url(/assets/img/backBotonesSlide.jpg);
+    height: 26px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+#botoneraslide ul{
+    /* background-color: blue; */
+    height: 26px;
+    margin: auto;
+    position: relative;
+    width: 100px;
+}
+
+#botoneraslide ul li{
+    background-color: #232d80;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    float: left;
+    height: 16px;
+    margin: 3px 2px;
+    width: 16px;
+}
+
+section{
+    background-color: #ffffff;
+    height: 299px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+section ul li{
+    /* background-color: yellow; */
+    float: left;
+    height: 299px;
+    width: 333px;
+}
+
+section ul li h2{
+    font-weight: 100;
+    font-size: 25px;
+    margin: 23px;
+    text-align: center;
+}
+
+section ul li p{
+    font-size: 15px;
+    margin: 23px 28px;
+    text-align: justify;
+}
+
+section ul li img{
+    background-color: silver;
+    height: 83px;
+    margin: 1px 29px;
+    width: 273px;
+}
+
+#bottom{
+    /* background-color: yellow; */
+    background-image: url(/assets/img/backBottom.jpg);
+    height: 190px;
+    position: relative;
+    margin: auto;
+    width: 1000px;
+}
+
+#bottom ul li{
+    /* background-color: green; */
+    float: left;
+    height: 190px;
+    width: 250px;
+}
+
+#bottom ul li h2{
+    /* background-color: #ffffff; */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 13px 18px;
+    text-align: center;
+}
+
+#bottom ul li ol{
+    position: relative;
+    height: 80px;   
+    left: 17px;
+    top: 15px;
+    width: 190px;
+}
+
+#bottom ul li ol li{
+    color: #ffffff;
+    font-size: 15px;
+    height: 20px;
+    text-align: left;
+}
+
+#bottom ul li img{
+    border: 4px solid #ffffff;
+    /* background-color: red; */
+    height: 95px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+    width: 95px;
+}
+
+#bottom ul li ul{
+    /* background-color: tomato; */
+    height: 40px;
+    position: relative;
+    top: 11px;
+    left: 15px;
+    width: 200px;
+}
+
+#bottom ul li ul li{
+    background-color: #ffffff;
+    border-radius: 100%;
+    float: left;
+    height: 40px;
+    margin: 5px;
+    width: 40px;
+}
+
+#bottom ul li ul li:first-child{
+    background-image: url(/assets/img/facebook.jpg);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(2){
+    background-image: url(/assets/img/iconoGoogle.jpg);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(3){
+    background-image: url(/assets/img/iconoTwitter.jpg);
+    background-size: cover;
+}
+
+#bottom ul li ul li:nth-child(4){
+    background-image: url(/assets/img/iconoPinterest.jpg);
+    background-size: cover;
+}
+
+footer{
+    /* background-color: violet; */
+    color: #ffffff;
+    font-size: 15px;
+    height: 62px;
+    line-height: 62px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+}
