@@ -60,6 +60,10 @@ nav ul li{
     width: 112px;
 }
 
+nav ul li a:hover{
+    color: #bcd1cb;
+}
+
 nav ul li:last-of-type{
     border: none;
 }
