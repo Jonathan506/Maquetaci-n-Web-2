@@ -116,27 +116,27 @@ section{
     width: 1000px;
 }
 
-section ul li{
+section#inicio ul li{
     /* background-color: yellow; */
     float: left;
     height: 299px;
     width: 333px;
 }
 
-section ul li h2{
+section#inicio ul li h2{
     font-weight: 100;
     font-size: 25px;
     margin: 23px;
     text-align: center;
 }
 
-section ul li p{
+section#inicio ul li p{
     font-size: 15px;
     margin: 23px 28px;
     text-align: justify;
 }
 
-section ul li img{
+section#inicio ul li img{
     background-color: silver;
     height: 83px;
     margin: 1px 29px;
@@ -145,22 +145,119 @@ section ul li img{
 
 /* Inicia Sección de QUIENES SOMOS */
 section#quienes-somos{
-    background: url(/assets/img/imgQuienesSomos.jpg);
     height: 299px;
     position: relative;
     margin: auto;
     width: 1000px;
 }
+
+section#quienes-somos h2{
+    color: #1f1d21;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+    left: 27px;
+}
+
+section#quienes-somos hr{
+    border: 1px solid #c6c6c6c6;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 950px;
+}
+
+section#quienes-somos p{
+    color: #414042;
+    position: relative;
+    top: 40px;
+    text-align: justify;
+    margin: auto;
+    width: 950px;
+}
+
+section#quienes-somos p img{
+    float: left;
+    margin-right:  20px;
+    margin-bottom: 20px;
+    width: 272px;
+}
+
 /* Finaliza Sección de QUIENES SOMOS */
 
 /* Inicia Sección de SERVICIOS */
 section#servicios{
-    background: url(/assets/img/imgQuienesSomos.jpg);
     height: 299px;
-    position: relative;
     margin: auto;
+    position: relative;
     width: 1000px;
 }
+
+section#servicios #caja-servicios{
+    box-shadow: 0px 0px 30px #222;
+    height: 262px;
+    margin: auto;
+    position: relative;
+    top: 18px;
+    width: 935px;
+}
+
+section#servicios #caja-servicios ul#lista{
+    height: 220px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 151px;
+}
+
+section#servicios #caja-servicios ul#lista li{
+    height: 72px;
+    margin: 2px 0;
+    width: 151px;
+}
+
+section#servicios #caja-servicios ul#lista li img{
+    cursor: pointer;
+    height: 72px;
+    width: 151px;
+}
+
+section#servicios #caja-servicios ul#visor{
+    height: 220px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 732px;
+}
+
+section#servicios #caja-servicios ul#visor li{
+    height: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 732px;
+}
+
+section#servicios #caja-servicios ul#visor li h1{
+    color: #4d545a;
+    font-weight: 100;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+section#servicios #caja-servicios ul#visor li p{
+    background-color: rgba(0, 0, 0, .5);
+    bottom: 0;
+    color: #ffffff;
+    line-height: 60px;
+    padding-left: 20px;
+    position: absolute;
+    width: 99.7%;
+    z-index: 100;
+}
+
 /* Finaliza Sección de SERVICIOS */
 
 /* Inicia Sección de CONTACTO */
@@ -171,6 +268,75 @@ section#contacto{
     margin: auto;
     width: 1000px;
 }
+
+section#contacto form{
+    height: 232px;
+    margin: auto;
+    position: relative;
+    top: 32px;
+    width: 910px;
+}
+
+section#contacto form input#nombre{
+    background-color: #dce9d7;
+    border: none;
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    width: 272px;
+}
+
+section#contacto form input#email{
+    background-color: #dce9d7;
+    border: none;
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    top: 95px;
+    width: 272px;
+}
+
+section#contacto form input#asunto{
+    background-color: #dce9d7;
+    border: none;
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 272px;
+}
+
+section#contacto form textarea{
+    background-color: #dce9d7;
+    border: none;
+    height: 140px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    resize: none;
+    width: 581px;
+}
+
+section#contacto form input#enviar{
+    background-color: #1a1d20;
+    border: none;
+    color: #ffffff;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 581px;
+}
+
+section#contacto form input#enviar:hover{
+    background-color: #272b30;
+}
+
+section#contacto form input#enviar:active{
+    background-color: #272b30;
+}
+
 /* Finaliza Sección de CONTACTO */
 
 #bottom{
