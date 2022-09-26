@@ -1,30 +1,24 @@
 *{
-    margin: 0;
-    padding: 0;
     text-decoration: none;
-    /* list-style: none; */
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 body{
     background-image: url(/assets/img/background.jpg);
+    margin: 0;
 }
 
 header{
-    /* background: rgba(255, 255, 0, 0.5); */
     background-image: url(/assets/img/cabezote.jpg);
-    border-bottom: 1px solid #bcd1cb;
-    height: 83px;
-    margin: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
     position: relative;
     width: 1000px;
 }
 
-#logo{
-    /* background-color: turquoise; */
-    /* background-image: url(/assets/img/logotipo.png); */
-    height: 47px;
+.logo{
     position: absolute;
     top: 17px;
     left: 15px;
@@ -32,11 +26,9 @@ header{
 }
 
 nav{
-    /* background: red; */
     background-image: url(/assets/img/nav.jpg);
     background-size: contain;
-    border-bottom: 1px solid #bcd1cb;
-    height: 83px;
+    padding: 45px;
     position: absolute;
     top: 0;
     right: 0;
@@ -44,15 +36,13 @@ nav{
 }
 
 nav ul{
-    /* background-color: blue; */
-    height: 45px;
     position: absolute;
     top: 17px;
     right: 15px;
     width: 472px;
 }
 
-nav ul li{
+nav  li{
     border-right: 1px solid #bcd1cb;
     float: left;
     line-height: 45px;
@@ -60,49 +50,49 @@ nav ul li{
     width: 112px;
 }
 
-nav ul li a:hover{
+nav li a:hover{
     color: #bcd1cb;
 }
 
-nav ul li:last-of-type{
+nav li:last-of-type{
     border: none;
 }
 
-nav ul li a{
+nav a{
     color: #ffffff;
     font-size: 14px;
 }
 
-#slide{
-    /* background-color: blue; */
+.slide{
     background-image: url(/assets/img/Slide.jpg);
     background-position: top;
     background-attachment: fixed;
     background-size: cover;
     height: 301px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-#botoneraslide{
-    /* background-color: aqua; */
+.botoneraslide{
     background-image: url(/assets/img/backBotonesSlide.jpg);
     height: 26px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-#botoneraslide ul{
-    /* background-color: blue; */
+.botoneraslide ul{
     height: 26px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 100px;
 }
 
-#botoneraslide ul li{
+.botoneraslide li{
     background-color: #232d80;
     border: 3px solid #ffffff;
     border-radius: 100%;
@@ -116,31 +106,31 @@ section{
     background-color: #ffffff;
     height: 299px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-section#inicio ul li{
-    /* background-color: yellow; */
+.inicio li{
     float: left;
     height: 299px;
     width: 333px;
 }
 
-section#inicio ul li h2{
+.inicio h2{
     font-weight: 100;
     font-size: 25px;
     margin: 23px;
     text-align: center;
 }
 
-section#inicio ul li p{
+.inicio p{
     font-size: 15px;
     margin: 23px 28px;
     text-align: justify;
 }
 
-section#inicio ul li img{
+.inicio img{
     background-color: silver;
     height: 83px;
     margin: 1px 29px;
