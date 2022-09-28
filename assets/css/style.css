@@ -262,23 +262,28 @@ header{
 /* Finaliza Sección de SERVICIOS */
 
 /* Inicia Sección de CONTACTO */
-section#contacto{
+
+.contact{
     background-color: #ffffff;
     height: 299px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-section#contacto form{
+.contact form{
     height: 232px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: 32px;
     width: 910px;
 }
 
-section#contacto form input#nombre{
+.contact input,
+textarea,
+.submit{
     background-color: #dce9d7;
     border: none;
     height: 45px;
@@ -287,55 +292,39 @@ section#contacto form input#nombre{
     width: 272px;
 }
 
-section#contacto form input#email{
-    background-color: #dce9d7;
-    border: none;
-    height: 45px;
-    padding: 10px;
-    position: absolute;
+.email{
     top: 95px;
-    width: 272px;
 }
 
-section#contacto form input#asunto{
-    background-color: #dce9d7;
-    border: none;
-    height: 45px;
-    padding: 10px;
-    position: absolute;
+.asunto{
     bottom: 0;
-    width: 272px;
 }
 
-section#contacto form textarea{
-    background-color: #dce9d7;
-    border: none;
+.textarea{
     height: 140px;
-    padding: 10px;
-    position: absolute;
     right: 0;
     resize: none;
     width: 581px;
 }
 
-section#contacto form input#enviar{
+input[type="submit"]{
     background-color: #1a1d20;
-    border: none;
     color: #ffffff;
+    font-size: 1rem;
     height: 40px;
-    padding: 10px;
-    position: absolute;
     right: 0;
     bottom: 0;
+    transition: all .5s;
     width: 581px;
 }
 
-section#contacto form input#enviar:hover{
+.submit:hover{
     background-color: #272b30;
 }
 
-section#contacto form input#enviar:active{
+.submit:active{
     background-color: #272b30;
+    transform: scale(.9);
 }
 
 /* Finaliza Sección de CONTACTO */
