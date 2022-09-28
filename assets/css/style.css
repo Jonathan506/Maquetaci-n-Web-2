@@ -1,6 +1,4 @@
 *{
-    text-decoration: none;
-    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -25,24 +23,24 @@ header{
     width: 188px; 
 }
 
-nav{
+.navigation{
     background-image: url(/assets/img/nav.jpg);
     background-size: contain;
-    padding: 45px;
+    padding: 40px;
     position: absolute;
     top: 0;
     right: 0;
     width: 50%;
 }
 
-nav ul{
+.navigation ul{
     position: absolute;
     top: 17px;
     right: 15px;
     width: 472px;
 }
 
-nav  li{
+.navigation  li{
     border-right: 1px solid #bcd1cb;
     float: left;
     line-height: 45px;
@@ -50,17 +48,17 @@ nav  li{
     width: 112px;
 }
 
-nav li a:hover{
-    color: #bcd1cb;
-}
-
-nav li:last-of-type{
+.navigation li:last-of-type{
     border: none;
 }
 
-nav a{
+.navigation a{
     color: #ffffff;
-    font-size: 14px;
+    font-size: 1rem;
+}
+
+.navigation a:hover{
+    color: #bcd1cb;
 }
 
 .slide{
@@ -102,7 +100,7 @@ nav a{
     width: 16px;
 }
 
-section{
+.inicio{
     background-color: #ffffff;
     height: 299px;
     position: relative;
@@ -125,7 +123,8 @@ section{
 }
 
 .inicio p{
-    font-size: 15px;
+    font-size: .9rem;
+    word-spacing: 3px;
     margin: 23px 28px;
     text-align: justify;
 }
@@ -138,14 +137,17 @@ section{
 }
 
 /* Inicia Sección de QUIENES SOMOS */
-section#quienes-somos{
+
+.quienes-somos{
+    background-color: #ffffff;
     height: 299px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-section#quienes-somos h2{
+.quienes-somos h2{
     color: #1f1d21;
     font-weight: 100;
     position: relative;
@@ -153,24 +155,26 @@ section#quienes-somos h2{
     left: 27px;
 }
 
-section#quienes-somos hr{
+.quienes-somos hr{
     border: 1px solid #c6c6c6c6;
     position: relative;
     top: 20px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 950px;
 }
 
-section#quienes-somos p{
+.quienes-somos p{
     color: #414042;
     position: relative;
     top: 40px;
     text-align: justify;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 950px;
 }
 
-section#quienes-somos p img{
+.quienes-somos img{
     float: left;
     margin-right:  20px;
     margin-bottom: 20px;
@@ -180,23 +184,26 @@ section#quienes-somos p img{
 /* Finaliza Sección de QUIENES SOMOS */
 
 /* Inicia Sección de SERVICIOS */
-section#servicios{
+.servicios{
+    background-color: #ffffff;
     height: 299px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     width: 1000px;
 }
 
-section#servicios #caja-servicios{
+.caja-servicios{
     box-shadow: 0px 0px 30px #222;
     height: 262px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: 18px;
     width: 935px;
 }
 
-section#servicios #caja-servicios ul#lista{
+.lista{
     height: 220px;
     position: absolute;
     top: 20px;
@@ -204,19 +211,19 @@ section#servicios #caja-servicios ul#lista{
     width: 151px;
 }
 
-section#servicios #caja-servicios ul#lista li{
+.lista li{
     height: 72px;
     margin: 2px 0;
     width: 151px;
 }
 
-section#servicios #caja-servicios ul#lista li img{
+.lista img{
     cursor: pointer;
     height: 72px;
     width: 151px;
 }
 
-section#servicios #caja-servicios ul#visor{
+.visor{
     height: 220px;
     position: absolute;
     top: 20px;
@@ -224,7 +231,7 @@ section#servicios #caja-servicios ul#visor{
     width: 732px;
 }
 
-section#servicios #caja-servicios ul#visor li{
+.visor li{
     height: 220px;
     position: absolute;
     top: 0px;
@@ -232,7 +239,7 @@ section#servicios #caja-servicios ul#visor li{
     width: 732px;
 }
 
-section#servicios #caja-servicios ul#visor li h1{
+.visor h1{
     color: #4d545a;
     font-weight: 100;
     position: absolute;
@@ -241,7 +248,7 @@ section#servicios #caja-servicios ul#visor li h1{
     z-index: 100;
 }
 
-section#servicios #caja-servicios ul#visor li p{
+.visor p{
     background-color: rgba(0, 0, 0, .5);
     bottom: 0;
     color: #ffffff;
@@ -333,24 +340,22 @@ section#contacto form input#enviar:active{
 
 /* Finaliza Sección de CONTACTO */
 
-#bottom{
-    /* background-color: yellow; */
+.bottom{
     background-image: url(/assets/img/backBottom.jpg);
     height: 190px;
     position: relative;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
-#bottom ul li{
-    /* background-color: green; */
+.bottom li{
     float: left;
     height: 190px;
     width: 250px;
 }
 
-#bottom ul li h2{
-    /* background-color: #ffffff; */
+.bottom h2{
     color: #ffffff;
     font-size: 18px;
     font-weight: 100;
@@ -358,7 +363,7 @@ section#contacto form input#enviar:active{
     text-align: center;
 }
 
-#bottom ul li ol{
+.bottom ol{
     position: relative;
     height: 80px;   
     left: 80px;
@@ -366,17 +371,16 @@ section#contacto form input#enviar:active{
     width: 190px;
 }
 
-#bottom ul li ol li{
+.sub-ol li{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 1rem;
     height: 20px;
     list-style-image: url(/assets/img/list.png);
     text-align: left;
 }
 
-#bottom ul li img{
+.bottom img{
     border: 4px solid #ffffff;
-    /* background-color: red; */
     height: 95px;
     position: relative;
     top: 15px;
@@ -384,8 +388,7 @@ section#contacto form input#enviar:active{
     width: 95px;
 }
 
-#bottom ul li ul{
-    /* background-color: tomato; */
+.sub-ul{
     height: 40px;
     position: relative;
     top: 11px;
@@ -393,7 +396,8 @@ section#contacto form input#enviar:active{
     width: 200px;
 }
 
-#bottom ul li ul li{
+.sub-ul li{
+    background-size: cover;
     background-color: #ffffff;
     border-radius: 100%;
     float: left;
@@ -402,41 +406,36 @@ section#contacto form input#enviar:active{
     width: 40px;
 }
 
-#bottom ul li ul li:first-child{
+.sub-ul li:first-child{
     background-image: url(/assets/img/facebook.jpg);
-    background-size: cover;
 }
 
-#bottom ul li ul li:nth-child(2){
+.sub-ul li:nth-child(2){
     background-image: url(/assets/img/iconoGoogle.jpg);
-    background-size: cover;
 }
 
-#bottom ul li ul li:nth-child(3){
+.sub-ul li:nth-child(3){
     background-image: url(/assets/img/iconoTwitter.jpg);
-    background-size: cover;
 }
 
-#bottom ul li ul li:last-child{
+.sub-ul li:last-child{
     background-image: url(/assets/img/iconoPinterest.jpg);
-    background-size: cover;
 }
 
-#bottom ul li ul li a{
-    border-radius: 100%;
-    float: left;
+.sub-ul a{
     height: 40px;
     width: 40px;
 }
+
+/*Inicia Footer*/
 
 footer{
     background-color: #000000;
     color: #ffffff;
     font-size: 15px;
-    height: 62px;
     line-height: 62px;
-    position: relative;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
