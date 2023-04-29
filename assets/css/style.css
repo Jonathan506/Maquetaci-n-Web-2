@@ -44,6 +44,7 @@ header{
     border-right: 1px solid #bcd1cb;
     float: left;
     line-height: 45px;
+    transition: all 0.3s;
     text-align: center;
     width: 112px;
 }
@@ -52,9 +53,14 @@ header{
     border: none;
 }
 
+.navigation  li:hover{
+    transform: scale(0.9);
+}
+
 .navigation a{
-    color: #ffffff;
+    color: #fff;
     font-size: 1rem;
+    transition: all 0.2s;
 }
 
 .navigation a:hover{
@@ -288,6 +294,7 @@ textarea,
     border: none;
     height: 45px;
     padding: 10px;
+    outline: none;
     position: absolute;
     width: 272px;
 }
